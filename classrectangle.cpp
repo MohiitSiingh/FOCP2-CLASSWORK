@@ -23,6 +23,7 @@ cout<<"\n Area is "<<calculateArea();
     cout<<"\n perimeter is "<<calculatePerimeter();
 }
 };
+
 int main(){
 Rectangle r1;
     r1.inputDimensions();
