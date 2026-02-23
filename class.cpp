@@ -20,3 +20,10 @@ void displayDetails(){
     cout<<"\n Total = "<<calculateTotal();
 }
 };
+int main()
+{
+student s1;
+s1.inputDetails();
+s1.displayDetails();
+    return 0;
+}
