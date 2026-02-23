@@ -2,9 +2,10 @@
 #include<string>
 using namespace std;
 class Rectangle {  
+    private:
 float length;
 float width;
-
+public:
 void inputDimensions(){
     cout<<"\n Enter length and Enter width: ";
 cin>>length>>width;
@@ -17,6 +18,9 @@ float calculatePerimeter(){
 }
 };
 int main(){
-    rectangle r1;
-    r1.
+Rectangle r1;
+    r1.inputDimensions();
+    cout<<"\n Area is "<<r1.calculateArea();
+    cout<<"\n perimeter is "<<r1.calculatePerimeter();
+    return 0;
 }
