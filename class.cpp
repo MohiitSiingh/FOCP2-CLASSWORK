@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class solution
+class student
 {private: 
     int rollNo;
     string name;
@@ -24,7 +24,7 @@ void displayDetails(){
 };
 int main()
 {
-solution s1;
+student s1;
 s1.inputDetails();
 s1.displayDetails();
     return 0;
