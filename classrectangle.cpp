@@ -6,6 +6,8 @@ class Rectangle {
 float length;
 float width;
 public:
+//if want to end }; class like this you can only declare them in class reactangle and 
+//use void Reactangle::displayResult in this way you can identify curly bracket in big code
 void inputDimensions(){
     cout<<"\n Enter length and Enter width: ";
 cin>>length>>width;
