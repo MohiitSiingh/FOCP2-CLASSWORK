@@ -24,7 +24,7 @@ void displayDetails(){
 };
 int main()
 {
-student s1;
+solution s1;
 s1.inputDetails();
 s1.displayDetails();
     return 0;
