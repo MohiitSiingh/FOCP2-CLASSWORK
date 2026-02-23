@@ -1,7 +1,8 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class solution{ 
+class solution
+{private: 
     int rollNo;
     string name;
     int marks1;
