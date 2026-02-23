@@ -17,5 +17,6 @@ float calculatePerimeter(){
 }
 };
 int main(){
-    
+    rectangle r1;
+    r1.
 }
