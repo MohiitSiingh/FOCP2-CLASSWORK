@@ -16,11 +16,14 @@ float calculateArea(){
 float calculatePerimeter(){
     return (2*(length+width));
 }
+void displayReasult(){
+cout<<"\n Area is "<<calculateArea();
+    cout<<"\n perimeter is "<<calculatePerimeter();
+}
 };
 int main(){
 Rectangle r1;
     r1.inputDimensions();
-    cout<<"\n Area is "<<r1.calculateArea();
-    cout<<"\n perimeter is "<<r1.calculatePerimeter();
+    r1.displayReasult();
     return 0;
 }
