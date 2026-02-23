@@ -7,6 +7,7 @@ class solution{
     int marks1;
     int marks2;
     int marks3;
+    public:
 void inputDetails(){//setter
     cout<<"\n Enter Rollno,name,marks1,marks2 &marks3";
     cin>>rollNo>>name>>marks1>>marks2>>marks3;
