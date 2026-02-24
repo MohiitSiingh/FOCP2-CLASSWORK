@@ -46,7 +46,7 @@ int main()
 student s1;
 s1.inputDetails();
 s1.displayDetails();
-s2.displayDetails();
-s3.displayDetails();
+s2.displayDetails(name="xyz", rollNo=23);
+s3.displayDetails(name="xyz", rollNo=23,marks1=23,marks2=234,marks3=90);
     return 0;
 }
