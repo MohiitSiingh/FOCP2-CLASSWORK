@@ -8,6 +8,7 @@ int points;
 public:
 void setCandy(string c,int p);
 void displayCandy();
+void Candy::loose
 };
 void Candy::setCandy(string c,int p){
     color=c;
