@@ -23,10 +23,10 @@ cout<<"\n Area is "<<calculateArea();
     cout<<"\n perimeter is "<<calculatePerimeter();
 }
 };
-rectangle{
+Rectangle::ectangle(){
     cout<<"defualt";
 }
-rectangle(l,w){
+Rectangle::rectangle(l,w){
     l=5;
     w=10
 }
