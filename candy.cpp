@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+using namespace std;
 class Candy{
     //private:
 string color;
@@ -19,5 +20,5 @@ void Candy::displayCandy(){
 }
 int main(){
     Candy c1,c2;
-    c1.setCandy("Blue");
+    c1.setCandy();
 }
