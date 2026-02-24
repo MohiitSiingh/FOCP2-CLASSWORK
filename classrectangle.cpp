@@ -32,7 +32,7 @@ rectangle(l,w){
 }
 int main(){
 Rectangle r1,r2(78,45);
-    r1.inputDimensions();
+   // r1.inputDimensions();
     r1.displayReasult();
       r2.displayReasult();
     return 0;
