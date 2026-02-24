@@ -27,6 +27,8 @@ cout<<"\n Area is "<<calculateArea();
 };
 Rectangle::Rectangle(){
     cout<<"defualt";
+    length=0;
+    width=0;
 }
 Rectangle::Rectangle(int l,int w){
     length=l;
