@@ -19,6 +19,6 @@ void Candy::displayCandy(){
 
 }
 int main(){
-    Candy c1,c2;
+    Candy c1("blue"),c2;
     c1.setCandy();
 }
