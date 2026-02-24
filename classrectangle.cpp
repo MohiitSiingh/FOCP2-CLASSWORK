@@ -20,7 +20,7 @@ float calculateArea(){
 float calculatePerimeter(){
     return (2*(length+width));
 }
-void displayReasult(){
+void displayResult(){
 cout<<"\n Area is "<<calculateArea();
     cout<<"\n perimeter is "<<calculatePerimeter();
 }
@@ -35,7 +35,7 @@ Rectangle::Rectangle(int l,int w){
 int main(){
 Rectangle r1,r2(78,45);
    // r1.inputDimensions();
-    r1.displayReasult();
-      r2.displayReasult();
+    r1.displayResult();
+      r2.displayResult();
     return 0;
 }
