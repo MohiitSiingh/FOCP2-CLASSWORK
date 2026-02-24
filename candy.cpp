@@ -13,8 +13,8 @@ void displayCandy();
 void loose_point(int p);
 void gain_point(int p);
 };
-Candy::candy(){
-color = 0;
+Candy::candy(string c){
+color = c;
 points=0;
 }
 Candy::candy(string c,int p){
@@ -24,7 +24,7 @@ points=p;
 void Candy::loose_point(int p){
     points=points-p;
 }
-void::gain_point(int p){
+void Candy::gain_point(int p){
     points = points + p;
 }
 void Candy::setCandy(string c,int p){
