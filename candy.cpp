@@ -11,7 +11,7 @@ Candy(string ,int);
 void setCandy(string c,int p);
 void displayCandy();
 void loose_point(int p);
-void::gain_point(int p);
+void gain_point(int p);
 };
 Candy::candy(){
 color = 0;
