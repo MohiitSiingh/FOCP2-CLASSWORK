@@ -17,10 +17,10 @@ Reactangle(int,int);
 float calculateArea(){
     return (length*width);
 }
-float calculatePerimeter(){
+float Rectangle::calculatePerimeter(){
     return (2*(length+width));
 }
-void displayResult(){
+void Rectangle::displayResult(){
 cout<<"\n Area is "<<calculateArea();
     cout<<"\n perimeter is "<<calculatePerimeter();
 }
