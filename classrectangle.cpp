@@ -12,6 +12,8 @@ void inputDimensions(){
     cout<<"\n Enter length and Enter width: ";
 cin>>length>>width;
 }
+Rectangle();
+Reactangle(int,int);
 float calculateArea(){
     return (length*width);
 }
@@ -26,9 +28,9 @@ cout<<"\n Area is "<<calculateArea();
 Rectangle::Rectangle(){
     cout<<"defualt";
 }
-Rectangle::Rectangle(l,w){
-    l=5;
-    w=10
+Rectangle::Rectangle(int l,int w){
+    length=l;
+    width=w;
 }
 int main(){
 Rectangle r1,r2(78,45);
