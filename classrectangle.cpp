@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -30,14 +30,14 @@ public:
     }
 };
 
-// Default constructor
+
 Rectangle::Rectangle() {
     cout << "Default constructor called\n";
     length = 0;
     width = 0;
 }
 
-// Parameterized constructor
+
 Rectangle::Rectangle(int l, int w) {
     length = l;
     width = w;
@@ -46,9 +46,9 @@ Rectangle::Rectangle(int l, int w) {
 int main() {
     Rectangle r1, r2(78, 45);
 
-    // r1.inputDimensions(); // Uncomment if you want user input
+    // r1.inputDimensions(); 
     r1.displayResult();
     r2.displayResult();
 
     return 0;
-}*/
+}
