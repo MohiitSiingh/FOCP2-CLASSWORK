@@ -19,7 +19,7 @@ swap( a, b){
     cout<<"after swap: "<<a<<b;
 
 }
-swap(float x,float y){
+swap(x, y){
     float temp = x;
     x=y;
     y=temp;
