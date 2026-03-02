@@ -12,14 +12,14 @@ cout<<"before swap : "<<x<<y;
 swap(3.3f,7.3f);
 return 0;
 }
-swap( a, b){
+void swap( int a, int b){
     int temp = a;
     a=b;
     b=temp;
     cout<<"after swap: "<<a<<b;
 
 }
-swap(x, y){
+void swap(float x, float y){
     float temp = x;
     x=y;
     y=temp;
