@@ -32,7 +32,10 @@ isOn = false;
 cout<<brand<<"Light turned off\n";
 }
 void increaseBrightness(){
-    
+    if(brightness>=90){
+        brightness+=10;cout<<"brightness : "<<brightness<<"\n";
+        
+    }
 }
 
 };
