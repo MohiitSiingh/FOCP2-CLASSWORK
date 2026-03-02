@@ -4,13 +4,13 @@ using namespace std;
 
 class swap{ 
     public:
-   swap(int a,int b){
+   swap(int &a,int &b){
   int  c=a;
     a=b;
     b=c;
    cout<<"a: "<<a<<"b: "<<b;
 }
-swap(float x,float y){
+swap(float &x,float &y){
   float  c=x;
     x=y;
     y=c;
