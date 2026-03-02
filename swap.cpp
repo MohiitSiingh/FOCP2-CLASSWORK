@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-class swapp{ 
+class swap{ 
     public:
    swap(int a,int b){
   int  c=a;
@@ -26,8 +26,8 @@ float x =9.9,y=8.9;
 //cout<<"swap int values: "<<swap(10.23,8.45);
 cout<<"before swap int values: "<<a<<b;
 cout<<"before swap: "<<x<<y;
-swapp s1(a,b);
-swapp s2(x,y);
+swap s1(a,b);
+swap s2(x,y);
 
     return 0;
 }
