@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
+
 void Swap(int,int);
 void Swap(float,float);
 int main(){
