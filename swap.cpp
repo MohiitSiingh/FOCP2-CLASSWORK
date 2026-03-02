@@ -12,7 +12,7 @@ cout<<"before swap : "<<x<<y;
 swap(3.3f,7.3f);
 return 0;
 }
-swap( a,int b){
+swap( a, b){
     int temp = a;
     a=b;
     b=temp;
