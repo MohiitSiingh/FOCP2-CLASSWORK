@@ -31,5 +31,6 @@ void turnOff(){
 isOn = false;
 cout<<brand<<"Light turned off\n";
 }
+void increaseBrightness()
 
 };
