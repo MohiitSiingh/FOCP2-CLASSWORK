@@ -43,5 +43,7 @@ void decreaseBrightness(){
         
     }
 }
-
+void displayStatus(){
+    
+}
 };
