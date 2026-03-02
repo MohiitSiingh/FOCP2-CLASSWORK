@@ -6,6 +6,8 @@ string brand;
 int brightness;
 bool isOn;
 public:
-void turnOn
+void turnOn(){
+    
+}
 
 };
