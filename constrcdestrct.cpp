@@ -4,6 +4,8 @@ using namespace std;
 class SmartLight{
 string brand;
 int brightness;
+bool isOn;
+public:
 
 
 };
