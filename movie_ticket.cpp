@@ -18,7 +18,7 @@ public:
         isBooked = false;
     }
 
-  
+
     MovieTicket(string name, int seat, double price) {
         movieName = name;
         seatNumber = seat;
@@ -26,7 +26,6 @@ public:
         isBooked = false;  
     }
 
-    
     void bookTicket() {
         if (!isBooked) {
             isBooked = true;
@@ -47,7 +46,6 @@ public:
         }
     }
 
-    
     void displayTicketDetails() {
         cout << "Movie: " << movieName << endl;
         cout << "Seat Number: " << seatNumber << endl;
@@ -56,38 +54,30 @@ public:
         cout << "-----------------------------" << endl;
     }
 
-    
     double calculateTotalCost(int numberOfTickets) {
         return ticketPrice * numberOfTickets;
     }
 };
-
 
 int main() {
   
     MovieTicket ticket1("Inception", 12, 250);
     MovieTicket ticket2("Interstellar", 15, 300);
 
-    
     ticket1.displayTicketDetails();
     ticket2.displayTicketDetails();
 
-   
     ticket1.bookTicket();
     ticket2.bookTicket();
 
-   
     ticket1.bookTicket();
 
-   
     ticket2.cancelTicket();
 
     ticket1.displayTicketDetails();
     ticket2.displayTicketDetails();
 
-    
     cout << "Total cost for 3 tickets of Inception: "
          << ticket1.calculateTotalCost(3) << endl;
-
     return 0;
 }
