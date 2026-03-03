@@ -4,18 +4,18 @@ using namespace std;
 
 class MovieTicket {
 private:
-    string movieName;
-    int seatNumber;
-    double ticketPrice;
-    bool isBooked;
+string movieName;
+int seatNumber;
+double ticketPrice;
+bool isBooked;
 
 public:
 
-    MovieTicket() {
-        movieName = "Unknown";
-        seatNumber = -1;
-        ticketPrice = 200;   
-        isBooked = false;
+MovieTicket() {
+movieName = "Unknown";
+seatNumber = -1;
+ticketPrice = 200;   
+isBooked = false;
     }
 
     MovieTicket(string name, int seat, double price) {
@@ -60,23 +60,23 @@ public:
 
 int main() {
   
-    MovieTicket ticket1("Inception", 12, 250);
-    MovieTicket ticket2("Interstellar", 15, 300);
+MovieTicket ticket1("Inception", 12, 250);
+MovieTicket ticket2("Interstellar", 15, 300);
 
-    ticket1.displayTicketDetails();
-    ticket2.displayTicketDetails();
+ticket1.displayTicketDetails();
+ticket2.displayTicketDetails();
 
-    ticket1.bookTicket();
-    ticket2.bookTicket();
+ticket1.bookTicket();
+ticket2.bookTicket();
 
-    ticket1.bookTicket();
+ticket1.bookTicket();
 
-    ticket2.cancelTicket();
+ticket2.cancelTicket();
 
-    ticket1.displayTicketDetails();
-    ticket2.displayTicketDetails();
+ticket1.displayTicketDetails();
+ticket2.displayTicketDetails();
 
-    cout << "Total cost for 3 tickets of Inception: "
-         << ticket1.calculateTotalCost(3) << endl;
+cout << "Total cost for 3 tickets of Inception: "<< ticket1.calculateTotalCost(3);
+
     return 0;
 }
