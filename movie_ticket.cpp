@@ -10,14 +10,13 @@ private:
     bool isBooked;
 
 public:
-   
+
     MovieTicket() {
         movieName = "Unknown";
         seatNumber = -1;
         ticketPrice = 200;   
         isBooked = false;
     }
-
 
     MovieTicket(string name, int seat, double price) {
         movieName = name;
