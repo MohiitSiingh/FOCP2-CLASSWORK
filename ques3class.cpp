@@ -12,5 +12,18 @@ public:
 Rectangle(float l,float b){
     length = l;
     breadth = b;
+
+}
+float calculatearea(){
+    return (l*w);
+}
+void displaydetails(){
+    cout<<"area is: "<<calculatearea();
 }
 };
+int main(){  
+Rectangle r1(2,2);
+r1.displaydetails();
+r1.calculatearea();
+return 0;
+}
