@@ -15,11 +15,11 @@ float calculatearea(){
     return (length*breadth);
 }
 void displaydetails(){
-    cout<<"area is: "<<calculatearea();
+    cout<<"\narea is: "<<calculatearea();
 }
 };
 Rectangle::Rectangle(){
-    cout<<"default parameter was called";
+    cout<<"\ndefault parameter was called";
     length=0;
     breadth=0;
 }
@@ -28,8 +28,10 @@ Rectangle::Rectangle(float l,float b){
     breadth=b;
 }
 int main(){  
-Rectangle r1(2,2);
+Rectangle r1,r2(2.2f,2.2f);
+
+//r1.calculatearea();
 r1.displaydetails();
-r1.calculatearea();
+r2.displaydetails();
 return 0;
 }
