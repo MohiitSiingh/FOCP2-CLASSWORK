@@ -21,6 +21,7 @@ cout<<"\nname is: "<<name<<"\nmarks are :"<<marks<<endl;
 };
 int main (){
 Student s1;
+s1.inputStudent();
 s1.displaydetails();
     return 0 ;
 }
