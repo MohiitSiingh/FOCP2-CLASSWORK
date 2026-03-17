@@ -7,16 +7,20 @@ the values and display the student details using a member function*/
 class Student {
 private:
 string name ;
-int marks 
+int marks ;
 public:
-void Student(){
+void inputStudent(){
     cout<<"Enter name and marks : ";
-cin>>name>>marks;
+
+}
+void displaydetails(){
+    cin>>name>>marks;
 cout<<"\nname is: "<<name<<"\nmarks are :"<<marks<<endl;
+
 }
 }
 int main (){
 Student s1;
-
+s1.displaydetails;
     return 0 ;
 }
