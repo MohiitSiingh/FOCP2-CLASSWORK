@@ -9,7 +9,7 @@ private:
 string brand ;
 double price;
 public:
-Car(string b,int p){
+Car(string b,double p){
 brand=b;
 price=p;
 }
