@@ -9,9 +9,9 @@ private:
 string brand ;
 double price;
 public:
-void inputCardetails(){
-cout<<"Enter: ";
-cin>>brand>>price;
+Car(b,p){
+brand=b;
+price=p;
 }
 void displaydetails(){
     cout<<"\nBrand is : "<<brand<<"\nprice is : "<<price<<endl;
@@ -19,8 +19,7 @@ void displaydetails(){
 
 };
 int main(){
-    Car c1;
-    c1.inputCardetails();
+    Car c1("toyota",50);
     c1.displaydetails();
     return 0;
 }

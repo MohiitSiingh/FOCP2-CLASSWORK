@@ -9,19 +9,17 @@ private:
 string name ;
 int marks ;
 public:
-void inputStudent(){
-    cout<<"Enter name and marks : ";
-
+Student(string n,int m){
+  name=n;
+  marks=m;
 }
 void displaydetails(){
-    cin>>name>>marks;
 cout<<"\nname is: "<<name<<"\nmarks are :"<<marks<<endl;
-
 }
 };
 int main (){
-Student s1;
-s1.inputStudent();
+Student s1("Mohit ",99);
+
 s1.displaydetails();
     return 0 ;
 }
