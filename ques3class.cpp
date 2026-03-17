@@ -9,18 +9,28 @@ private:
 float length;
 float breadth;
 public:
-Rectangle(float l,float b){
-    length = l;
-    breadth = b;
-
+Rectangle(){
+   
+}
+Rectangle(float ,float ){
+   
 }
 float calculatearea(){
-    return (l*w);
+    return (length*breadth);
 }
 void displaydetails(){
     cout<<"area is: "<<calculatearea();
 }
 };
+Rectangle::Rectangle(){
+    cout<<"default parameter was called";
+    lenght=0;
+    breadth=0;
+}
+Rectangle::Rectangle(float l,float b){
+    lenght=l;
+    breadth=b;
+}
 int main(){  
 Rectangle r1(2,2);
 r1.displaydetails();
