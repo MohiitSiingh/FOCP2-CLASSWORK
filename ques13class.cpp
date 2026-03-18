@@ -25,12 +25,28 @@ int ram;
 string brand;
 public:
 void setdetails(string brand){
-
+brand=brand;
+ram=0;
+price = 0;
 }
 void setdetails(string brand,int ram){
-
+brand =  brand;
+ram = ram;
+price = 0;
 }
 void setdetails(string brand,int ram,int price){
-    
+brand = brand;
+ram = ram;
+price = price;
+}
+void display(){
+    cout<<"\nLaptop details are as follows: "<<brand<<ram<<price;
 }
 };
+int main(){
+Laptop l1("Lenovo\n"),l2("Lenovo",32),l3("\nLenovo",32,10000);
+l1.display();
+l2.display();
+l3.display();
+    return 0;
+}
