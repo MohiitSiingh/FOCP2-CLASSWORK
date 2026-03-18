@@ -40,11 +40,14 @@ ram = ram;
 price = price;
 }
 void display(){
-    cout<<"\nLaptop details are as follows: "<<brand<<ram<<price;
+    cout<<"\nLaptop details are as follows: "<<brand<<ram<<"GB"<<price;
 }
 };
 int main(){
-Laptop l1("Lenovo\n"),l2("Lenovo",32),l3("\nLenovo",32,10000);
+Laptop l1,l2,l3;
+l1.setdetails("Lenovo\n");
+l2.setdetails("Lenovo",32);
+l3.setdetails("\nLenovo",32,10000);
 l1.display();
 l2.display();
 l3.display();
