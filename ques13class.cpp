@@ -24,7 +24,13 @@ int price;
 int ram;
 string brand;
 public:
-void setdetails(string brand);
-void setdetails(string brand,int ram);
-void setdetails(string brand,int ram,int price);
+void setdetails(string brand){
+
+}
+void setdetails(string brand,int ram){
+
+}
+void setdetails(string brand,int ram,int price){
+    
+}
 };
