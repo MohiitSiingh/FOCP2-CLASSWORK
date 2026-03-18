@@ -47,7 +47,7 @@ int main(){
 Laptop l1,l2,l3;
 l1.setdetails("Lenovo\n");
 l2.setdetails("Lenovo",32);
-l3.setdetails("\nLenovo",32,10000);
+l3.setdetails("\nLenovo",32,60000);
 l1.display();
 l2.display();
 l3.display();
