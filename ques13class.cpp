@@ -24,23 +24,23 @@ int price;
 int ram;
 string brand;
 public:
-void setdetails(string brand){
-brand=brand;
+void setdetails(string b){
+brand=b;
 ram=0;
 price = 0;
 }
-void setdetails(string brand,int ram){
-brand =  brand;
-ram = ram;
+void setdetails(string b,int r){
+brand =  b;
+ram = r;
 price = 0;
 }
-void setdetails(string brand,int ram,int price){
-brand = brand;
-ram = ram;
-price = price;
+void setdetails(string b,int r,int p){
+brand = b;
+ram = r;
+price = p;
 }
 void display(){
-    cout<<"\nLaptop details are as follows: "<<brand<<ram<<"GB"<<price;
+    cout<<"\nLaptop details:\nbrand name :"<<brand<<"\nram is: "<<ram<<"GB\n"<<"price is: "<<price;
 }
 };
 int main(){
