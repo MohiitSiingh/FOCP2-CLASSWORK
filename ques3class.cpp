@@ -23,9 +23,9 @@ Rectangle::Rectangle(){
     length=0;
     breadth=0;
 }
-Rectangle::Rectangle(float l,float b){
-    length=l;
-    breadth=b;
+Rectangle::Rectangle(float length,float breadth){
+    this->length=length;
+    this->breadth=breadth;
 }
 int main(){  
 Rectangle r1,r2(2.2f,2.2f);
