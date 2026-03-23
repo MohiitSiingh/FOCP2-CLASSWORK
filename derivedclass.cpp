@@ -20,9 +20,10 @@ this->age=age;
 class Student : public Person{
     string rollno;
     public:
-person()
+Student()
     {
-        cout<<"\n student parametrized";
-        rollno = rno;
+        cout<<"\n student default";
+        rollno = "25csu356";
     }
+    Student()
 }
