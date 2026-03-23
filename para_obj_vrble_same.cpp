@@ -28,10 +28,11 @@ Rectangle::Rectangle(float length,float breadth){
     this->breadth=breadth;
 }
 int main(){  
-Rectangle r1,r2(2.2f,2.2f);
+Rectangle r1,r2(2.2f,2.2f);//we cam create an object using pointer for 
+// dynamic memory allocation = *r3 = new(25,67)
 
 //r1.calculatearea();
 r1.displaydetails();
-r2.displaydetails();
+r2.displaydetails();//r3->displaydetails();
 return 0;
 }
