@@ -6,5 +6,12 @@ class Person{
 string name;
 int age;
 public:
-
+void display(){
+    cout<<"\n name = "<<name<<"\n age = "<<age;
+}
+person(){
+    cout<<"\n person default ";name="";age=18;
+}
+person( string name , int age)
+cout<<thi
 };
