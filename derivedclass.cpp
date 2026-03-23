@@ -25,5 +25,13 @@ Student()
         cout<<"\n student default";
         rollno = "25csu356";
     }
-    Student()
+    Student(string rno,string nm,int ag):Person(nm,ag){
+        cout<<"\n student parameterized";
+        rollno=rno;
+
+    }
+    void display_student(){
+        
+    }
+    
 }
