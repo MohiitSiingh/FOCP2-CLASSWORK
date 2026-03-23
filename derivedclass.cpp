@@ -17,3 +17,8 @@ cout<<"person parameterized";
 this->name=name;
 this->age=age;
 };
+class Student : public Person{
+    string rollno;
+    public:
+    
+}
