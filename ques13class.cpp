@@ -35,7 +35,7 @@ ram = r;
 price = 0;
 }
 void setdetails(string b,int r,int p){
-brand = b;
+brand = b;//use this operator for same parameter and varible as = this->brand = brand;
 ram = r;
 price = p;
 }
