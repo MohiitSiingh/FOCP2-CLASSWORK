@@ -33,6 +33,6 @@ Rectangle r1,r2(2.2f,2.2f);//we cam create an object using pointer for
 
 //r1.calculatearea();
 r1.displaydetails();
-r2.displaydetails();//r3->displaydetails();
+r2.displaydetails();// (*r3).displaydetails();
 return 0;
 }
