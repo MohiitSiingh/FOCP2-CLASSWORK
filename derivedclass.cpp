@@ -13,5 +13,7 @@ person(){
     cout<<"\n person default ";name="";age=18;
 }
 person( string name , int age)
-cout<<thi
+cout<<"person parameterized";
+this->name=name;
+this->age=age;
 };
