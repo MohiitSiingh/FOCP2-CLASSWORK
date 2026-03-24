@@ -56,9 +56,17 @@ savingsaccount(int a , float b , float i) : Account(a,b){
     cout<<"savings account :\n";
     interest = i;
 }
+void sav_displayAccount(){
+    displayAccount();
+    cout<<"Interest :"<<getinterest();
+    cout<<endl;
+}
  };
  int main(){
     Account A,B(121212,222.2);
     A.displayAccount();
     B.displayAccount();
+    savingsaccount s1,s2(121212,222.2,5);
+      s1.displayAccount();
+    s2.displayAccount();
  }
