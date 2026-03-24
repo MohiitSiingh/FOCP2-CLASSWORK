@@ -5,5 +5,8 @@
    function calculateInterest().
    Demonstrate usage of both classes. */
    class Account {
-
+int acc_num;
+float balance;
+public:
+int 
    };
