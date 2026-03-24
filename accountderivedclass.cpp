@@ -49,23 +49,23 @@ void calculateInterest(){
      cout<<"Interest per month :"<<(getInterest()/100)*getbalance()<<endl;
 }
 savingsaccount() : Account(){
-    cout<<"savings account created\n";
+    cout<<"\nsavings account created";
     interest = 0;
 }
 savingsaccount(int a , float b , float i) : Account(a,b){
-    cout<<"savings account :\n";
+    cout<<"\nsavings account has ";
     interest = i;
 }
 void sav_displayAccount(){
     displayAccount();
-    cout<<"Interest :"<<getinterest();
+    cout<<"\nInterest :"<<getInterest();
     cout<<endl;
 }
  };
  int main(){
-    Account A,B(121212,222.2);
-    A.displayAccount();
-    B.displayAccount();
+    // Account A,B(121212,222.2);
+    // A.displayAccount();
+    // B.displayAccount();
     savingsaccount s1;
     savingsaccount s2(121212,222.2,5);
       s1.sav_displayAccount();
