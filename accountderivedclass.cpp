@@ -49,7 +49,7 @@ void calculateInterest(){
      cout<<"Interest per month :"<<(getInterest()/100)*getbalance()<<endl;
 }
 savingsaccount() : Account(){
-    cout<<"\nsavings account created";
+    cout<<"\nsavings account created \n";
     interest = 0;
 }
 savingsaccount(int a , float b , float i) : Account(a,b){
@@ -67,7 +67,8 @@ void sav_displayAccount(){
     // A.displayAccount();
     // B.displayAccount();
     savingsaccount s1;
+    s1.sav_displayAccount();
     savingsaccount s2(121212,222.2,5);
-      s1.sav_displayAccount();
+      
     s2.sav_displayAccount();
  }
