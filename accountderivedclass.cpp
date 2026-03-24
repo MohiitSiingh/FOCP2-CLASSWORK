@@ -37,7 +37,16 @@ Account(int a,float b){
  };
  Class Account : public savingsaccount{
 float interest;
-
+public:
+int getInterest(){
+    return interest;
+}
+void setInterst(float interest){
+    this->interest= interest;
+}
+void calculateInterest(){
+    
+}
  };
  int main(){
     Account A,B(121212,222.2);
