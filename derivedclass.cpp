@@ -31,7 +31,7 @@ Student()
 
     }
     void display_student(){
-        
+        //incomplete
     }
     
 }
