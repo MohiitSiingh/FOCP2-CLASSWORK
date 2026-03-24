@@ -7,7 +7,7 @@ using namespace std;
    Demonstrate usage of both classes. */
    class Account{
 int acc_num;
-float balance;
+float balance;//use protected if there is not getter and setter
 public:
 int get_accnum(){
     return acc_num;
