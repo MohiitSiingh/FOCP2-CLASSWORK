@@ -45,8 +45,10 @@ void setInterst(float interest){
     this->interest= interest;
 }
 void calculateInterest(){
-    
+    cout<<"Interest rate :"<<getInterest()<<"%"<<endl;
+     cout<<"Interest per month :"<<(getInterest()/100)*getbalance()<<endl;
 }
+
  };
  int main(){
     Account A,B(121212,222.2);
