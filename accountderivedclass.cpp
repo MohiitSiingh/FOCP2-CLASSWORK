@@ -48,7 +48,14 @@ void calculateInterest(){
     cout<<"Interest rate :"<<getInterest()<<"%"<<endl;
      cout<<"Interest per month :"<<(getInterest()/100)*getbalance()<<endl;
 }
-
+savingsaccount() : Account(){
+    cout<<"savings account created\n";
+    interest = 0;
+}
+savingsaccount(int a , float b , float i) : Account(a,b){
+    cout<<"savings account :\n";
+    interest = i;
+}
  };
  int main(){
     Account A,B(121212,222.2);
