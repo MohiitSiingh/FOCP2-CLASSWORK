@@ -35,6 +35,10 @@ Account(int a,float b){
     balance = b;
 }
  };
+ Class Account : public savingsaccount{
+float interest;
+
+ };
  int main(){
     Account A,B(121212,222.2);
     A.displayAccount();
