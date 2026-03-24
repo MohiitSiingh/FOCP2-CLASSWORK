@@ -26,5 +26,8 @@ void displayAccount(){
     cout<<"account number ="<<acc_num;
     cout<<"\nbalance ="<<balance;
 }  
-
+Account 
  };
+ int main(){
+    A
+ }
