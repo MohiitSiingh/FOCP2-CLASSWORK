@@ -1,5 +1,5 @@
 #include<iostream>
-usinf namespace std;
+using namespace std;
 /* Create a class Account with account number and balance.
  Add a function displayAccount().
   Derive a class SavingsAccount that includes interest rate and a
@@ -35,7 +35,7 @@ Account(int a,float b){
     balance = b;
 }
  };
- Class Account : public savingsaccount{
+ class savingsaccount : public Account {
 float interest;
 public:
 int getInterest(){
