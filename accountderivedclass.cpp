@@ -68,7 +68,7 @@ void sav_displayAccount(){
     // B.displayAccount();
     savingsaccount s1;
     s1.sav_displayAccount();
+    
     savingsaccount s2(121212,222.2,5);
-      
     s2.sav_displayAccount();
  }
