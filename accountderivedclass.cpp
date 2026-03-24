@@ -26,8 +26,17 @@ void displayAccount(){
     cout<<"account number ="<<acc_num;
     cout<<"\nbalance ="<<balance;
 }  
-Account 
+Account(){
+    acc_num = 1;
+    balance = 0;
+}
+Account(int a,float b){
+    acc_num = a;
+    balance = b;
+}
  };
  int main(){
-    A
+    Account A,B(121212,222.2);
+    A.displayAccount();
+    B.displayAccount();
  }
