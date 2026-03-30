@@ -37,12 +37,12 @@ class C : public A{
   string rollno;
   string sec;
     public:
-B()
+C()
     {
         cout<<"\n student default";
         rollno = "25csu356";
     }
-    B(string rno,string nm,int ag,string sc):Person(nm,ag,sc){
+    C(string rno,string nm,int ag,string sc):Person(nm,ag,sc){
         cout<<"\n student parameterized";
         rollno = rno;
         sec = sc;
@@ -53,5 +53,12 @@ B()
 
 };
 int main(){ 
-    
+ A A1;
+ A1.display();
+ A A2("Mohit",19);
+ A2.display();
+ B B1,B2("25csu356","Mohit",19,);
+  B1.display();
+ B2.display();
+C C1,C2("Mohit",19,"25csu356", "A");
 }
