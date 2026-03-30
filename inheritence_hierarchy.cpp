@@ -11,11 +11,11 @@ void display(){
 A(){
     cout<<"\n person default ";name="";age=18;
 }
-A( string name , int age)
+A( string name , int age){ 
 cout<<"person parameterized";
 this->name=name;
 this->age=age;
-
+}
 };
 class B : public A{
   string rollno;
