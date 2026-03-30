@@ -20,7 +20,7 @@ this->age=age;
 class B : public A{
   string rollno;
     public:
-A()
+B()
     {
         cout<<"\n student default";
         rollno = "25csu356";
@@ -30,4 +30,22 @@ A()
         rollno = rno;
     }
 };
-class C : public 
+class C : public A{
+  string rollno;
+  string sec;
+    public:
+B()
+    {
+        cout<<"\n student default";
+        rollno = "25csu356";
+    }
+    B(string rno,string nm,int ag,string sc):Person(nm,ag,sc){
+        cout<<"\n student parameterized";
+        rollno = rno;
+        sec = sc;
+    }
+
+};
+int main(){ 
+    
+}
