@@ -25,7 +25,7 @@ B()
         cout<<"\n student default";
         rollno = "25csu356";
     }
-    B(string rno,string nm,int ag):Person(nm,ag){
+    B(string rno,string nm,int ag):A(nm,ag){
         cout<<"\n student parameterized";
         rollno = rno;
     }
@@ -42,7 +42,7 @@ C()
         cout<<"\n student default";
         rollno = "25csu356";
     }
-    C(string rno,string nm,int ag,string sc):Person(nm,ag,sc){
+    C(string rno,string nm,int ag,string sc):A(nm,ag){
         cout<<"\n student parameterized";
         rollno = rno;
         sec = sc;
