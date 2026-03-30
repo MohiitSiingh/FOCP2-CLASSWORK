@@ -18,5 +18,16 @@ this->age=age;
 
 };
 class B : public A{
-
+  string rollno;
+    public:
+A()
+    {
+        cout<<"\n student default";
+        rollno = "25csu356";
+    }
+    B(string rno,string nm,int ag):Person(nm,ag){
+        cout<<"\n student parameterized";
+        rollno = rno;
+    }
 };
+class C : public 
