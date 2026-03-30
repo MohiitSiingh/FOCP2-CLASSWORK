@@ -70,6 +70,7 @@ D()
         rollno = rno;
         sec = sc;
     }
+    cout<<"\n Multilevel";
       void display(){
     cout<<"\n name = "<<name<<"\n age = "<<age<<"\n roll no is" << rollno<<"\n sec is"<<sec;
 }
