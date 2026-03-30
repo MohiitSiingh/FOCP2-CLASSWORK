@@ -61,4 +61,6 @@ int main(){
   B1.display();
  B2.display();
 C C1,C2("Mohit",19,"25csu356", "A");
+C1.display();
+C2.display();
 }
