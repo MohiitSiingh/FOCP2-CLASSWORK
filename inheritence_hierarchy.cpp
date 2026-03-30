@@ -2,6 +2,7 @@
 #include<string>
 using namespace std;
 class A {
+    protected:
 string name;
 int age;
 public:
@@ -18,6 +19,7 @@ this->age=age;
 }
 };
 class B : public A{
+    protected:
   string rollno;
     public:
 B()
@@ -34,6 +36,7 @@ B()
 }
 };
 class C : public A{
+    protected:
   string rollno;
   string sec;
     public:
@@ -57,7 +60,7 @@ int main(){
  A1.display();
  A A2("Mohit",19);
  A2.display();
- B B1,B2("25csu356","Mohit",19,);
+ B B1,B2("25csu356","Mohit",19);
   B1.display();
  B2.display();
 C C1,C2("Mohit",19,"25csu356", "A");
