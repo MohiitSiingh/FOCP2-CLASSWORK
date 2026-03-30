@@ -29,6 +29,9 @@ B()
         cout<<"\n student parameterized";
         rollno = rno;
     }
+    void display(){
+    cout<<"\n name = "<<name<<"\n age = "<<age<<"\n roll no is" << rollno;
+}
 };
 class C : public A{
   string rollno;
@@ -44,6 +47,9 @@ B()
         rollno = rno;
         sec = sc;
     }
+      void display(){
+    cout<<"\n name = "<<name<<"\n age = "<<age<<"\n roll no is" << rollno<<"\n sec is"<<sec;
+}
 
 };
 int main(){ 
