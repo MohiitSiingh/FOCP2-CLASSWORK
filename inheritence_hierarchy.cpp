@@ -55,6 +55,25 @@ C()
 }
 
 };
+class D : public B , public C{
+   protected:
+  string rollno;
+  string sec;
+    public:
+D()
+    {
+        cout<<"\n student default";
+        rollno = "25csu356";
+    }
+    D(string rno,string nm,int ag,string sc):A(nm,ag){
+        cout<<"\n student parameterized";
+        rollno = rno;
+        sec = sc;
+    }
+      void display(){
+    cout<<"\n name = "<<name<<"\n age = "<<age<<"\n roll no is" << rollno<<"\n sec is"<<sec;
+}
+};
 int main(){ 
  A A1;
  A1.display();
