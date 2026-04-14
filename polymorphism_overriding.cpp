@@ -24,7 +24,7 @@ class Rectangle:public shape{
     }
 };
 int main(){
-    shape *s1;
+    shape s1;
     Rectangle r2(50,45);
     s1.area();
     r2.area();
