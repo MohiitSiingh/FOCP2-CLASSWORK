@@ -5,6 +5,9 @@ class shape{
     shape(){
         cout<<"\n shape default const called";}
         virtual void area()=0;
+        // {
+        //     cout<<"\n no dim no area";
+        // }
 void display(){
     cout <<"\n we are 2d shapes";
 }
@@ -21,7 +24,7 @@ class Rectangle:public shape{
     }
 };
 int main(){
-    shape s1;
+    shape *s1;
     Rectangle r2(50,45);
     s1.area();
     r2.area();
