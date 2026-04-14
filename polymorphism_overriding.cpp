@@ -4,9 +4,7 @@ class shape{
     public:
     shape(){
         cout<<"\n shape default const called";}
-        void area(){
-            cout<<"\n no dim no area";
-        }
+        virtual void area()=0;
 void display(){
     cout <<"\n we are 2d shapes";
 }
