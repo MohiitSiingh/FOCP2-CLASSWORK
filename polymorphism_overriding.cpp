@@ -8,7 +8,7 @@ class shape{
         // {
         //     cout<<"\n no dim no area";
         // }
-void display(){
+virtual void display() final{
     cout <<"\n we are 2d shapes";
 }
     
