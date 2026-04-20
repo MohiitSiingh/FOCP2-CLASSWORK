@@ -1,0 +1,4 @@
+This is file handling in c++
+this is file handling in c++ where ios::out truncates the file
+This is file handling in c++
+this is file handling in c++ where ios::out truncates the file
