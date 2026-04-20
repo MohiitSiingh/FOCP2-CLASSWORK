@@ -23,6 +23,11 @@ cout<< count_line<<endl;
 fin.close();
 
 ifstream fin2("./data.txt");
+if (!fin2.is_open())//if(!fin)
+{ cout<<"Issue with the file ";//it checks whether there is a file of this name or not
+    //it prints 0 if there is no file of this name
+}
+
 int count_word =0;
 while(fin2>>line){
     cout << line << endl;
