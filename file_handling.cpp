@@ -20,12 +20,15 @@ while(getline(fin,line)){
 }
 
 cout<< count_line<<endl;
+fin.close();
+
+ifstream fin2("./data.txt");
 int count_word =0;
-while(fin>>line){
+while(fin2>>line){
     cout << line << endl;
     count_word++;
 }
 cout<<count_word;
-fin.close();
+fin2.close();
     return 0;
 }
