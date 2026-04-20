@@ -13,6 +13,6 @@ while(getline(fin , line )){
   
 }
   fout.close();
-  //
+  
 fin.close();
 }
