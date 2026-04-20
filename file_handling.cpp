@@ -14,7 +14,7 @@ string line;
 int count =0;
 // getline(fin,line);//use while to display the text of whole file
 // cout<<line;
-while(getline(fin,line)){
+while(fin>>line){
     cout << line << endl;
     count++;
 }
