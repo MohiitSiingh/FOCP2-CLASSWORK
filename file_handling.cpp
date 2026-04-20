@@ -11,12 +11,14 @@ fout<< "this is file handling in c++ where ios::out truncates the file";
 cout<< "data written successfully\n";
 ifstream fin("./data.txt");
 string line;
-
+int count =0;
 // getline(fin,line);//use while to display the text of whole file
 // cout<<line;
 while(getline(fin,line)){
     cout << line << endl;
+    count++;
 }
+cout<<count;
 fin.close();
     return 0;
 }
