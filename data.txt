@@ -1,0 +1,2 @@
+This is file handling in c++
+the syntax is different
