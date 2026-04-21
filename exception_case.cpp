@@ -16,6 +16,6 @@ catch(const char* msg){
     cout << "Exception caught: " << msg << endl;
 }
 
-cout << "Program continues .."<< endl'
+cout << "Program continues .."<< endl;
 return 0;
 }
