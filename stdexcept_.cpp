@@ -14,6 +14,6 @@ int main () {
     catch (invalid_argument& e){
         cout << "Exception : " << e.what() << endl;
     }
-    return 0;
-    
+    return 0;       
+
 }
