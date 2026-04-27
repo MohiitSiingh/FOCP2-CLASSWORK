@@ -5,8 +5,7 @@ int main() {
     vector<int> marks; 
     int choice, val; 
     do { 
-        cout << "\n1. Add Marks\n2. Display\n3. Average\n4. Remove Last\n0. 
-Exit\n"; 
+        cout << "\n1. Add Marks\n2. Display\n3. Average\n4. Remove Last\n0. Exit\n"; 
         cin >> choice; 
         switch(choice) { 
             case 1: 
