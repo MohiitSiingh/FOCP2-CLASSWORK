@@ -7,7 +7,7 @@
 // volumes.
 #include<iostream>
 using namespace std;
-class volume{
+class Volume{
     float length,breadth,height,radius;
     public:
     int volume(float l ){
@@ -24,9 +24,9 @@ class volume{
     }
 };
 int main(){
-    volume v1;
-    v1.volume(2);
-    v1.volume (2,3,4);
-    v1.volume(2.12,4);
+    Volume v1;
+    // volume(2);
+    // volume (2,3,4);
+   v1.volume(2.12f,4.0f);
     v1.display();
 }
