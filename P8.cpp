@@ -7,16 +7,26 @@
 // volumes.
 #include<iostream>
 using namespace std;
-class volume(){
+class volume{
     float length,breadth,height,radius;
     public:
     int volume(float l ){
         return (l*l*l);
     }
-     int volume(float l,float breadth,float height ){
-        return ();
+     int volume(float length,float breadth,float height ){
+        return (length*breadth*height);
     }
-     int volume(int l ){
-        return (l*l*l);
+     int volume(float radius,float height ){
+        return (radius*height);
     }
+    void display(){
+        cout<<"Volume of the cube or cuboid or cylinder = "<<volume();
+    }
+};
+int main(){
+    volume v1;
+    v1.volume(2);
+    v1.volume (2,3,4);
+    v1.volume(2.12,4);
+    v1.display();
 }
