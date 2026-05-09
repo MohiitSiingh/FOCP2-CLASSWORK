@@ -10,5 +10,5 @@ using namespace std;
 class volume(){
     float length,breadth,height,radius;
     public:
-    int volume()
+    int volume(int )
 }
