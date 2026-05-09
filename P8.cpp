@@ -10,13 +10,13 @@ using namespace std;
 class Volume{
     float length,breadth,height,radius;
     public:
-    int volume(float l ){
+    float volume(float l ){
         return (l*l*l);
     }
-     int volume(float length,float breadth,float height ){
+     float volume(float length,float breadth,float height ){
         return (length*breadth*height);
     }
-     int volume(float radius,float height ){
+     float volume(float radius,float height ){
         return (radius*height);
     }
     void display(){
