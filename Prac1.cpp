@@ -2,5 +2,22 @@
 // Use a constructor to initialize 
 // the values and display the student details using a member function. 
 #include<iostream>
+#include<string>
 using namespace std;
-class 
+class Student{
+    string name;
+    int marks;
+    public :
+    Student(string n,int m){
+        name = n;
+        marks =m;
+    }
+    void display(){
+        cout<<"Name is :"<<name<<"\n marks obtained : "<<marks;
+    }
+};
+int main(){
+Student s1("Mohit Panwar",99);
+s1.display();
+    return 0;
+}
