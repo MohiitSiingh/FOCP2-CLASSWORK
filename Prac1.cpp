@@ -13,7 +13,7 @@ class Student{
         marks =m;
     }
     void display(){
-        cout<<"Name is :"<<name<<"\n marks obtained : "<<marks;
+        cout<<"Name is :"<<name<<"\nmarks obtained : "<<marks;
     }
 };
 int main(){
