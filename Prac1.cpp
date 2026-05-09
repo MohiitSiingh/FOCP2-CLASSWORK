@@ -3,3 +3,4 @@
 // the values and display the student details using a member function. 
 #include<iostream>
 using namespace std;
+class 
