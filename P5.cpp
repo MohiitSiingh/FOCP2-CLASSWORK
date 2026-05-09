@@ -17,5 +17,7 @@ void Display(){
 }
 };
 int main(){
-    
+    BankAccount b("XS123",123456789);
+    b.Display();
+
 }
