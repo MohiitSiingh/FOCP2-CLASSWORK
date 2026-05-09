@@ -5,6 +5,6 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class Reactangle{
+class Rectangle{
 
 };
