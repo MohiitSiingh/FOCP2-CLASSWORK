@@ -15,5 +15,30 @@ class Table{
 string material;
 float price;
 int legs;
-
+public:
+Table(){
+    material = "wood";
+    price = 5000;
+    legs=4;
+}
+Table(string mtrl,float p){
+    material = mtrl;
+    price = p;
+    legs=4;
+}
+Table(string mtrl,float p ,int leg){
+    material = mtrl;
+    price =p;
+    legs=leg;
+}
+void display(){
+    cout<<"\ntable material: "<<material<<"\nPrice will be "<<price<<"\nno. of legs will be "<<legs;
+}
 } ;
+int main(){
+    Table T1,T2("wood",10000),T3("wood",2345,4);
+    T1.display();
+    T2.display();
+    T3.display();
+    return 0;
+}
