@@ -14,5 +14,6 @@ using namespace std;
 class Table{
 string material;
 float price;
-int legs
+int legs;
+
 } ;
