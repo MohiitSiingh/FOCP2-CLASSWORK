@@ -4,9 +4,15 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class Bankaccount{
+class BankAccount{
 string acc_num;
 float balance;
 public:
-
+BankAccount(string acc,float bal){
+    acc_num = acc;
+    balance = bal;
 }
+void Display(){
+    cout
+}
+};
