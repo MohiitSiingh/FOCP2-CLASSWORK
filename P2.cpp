@@ -8,5 +8,10 @@ class Car{
 string brand;
 float price;
 public:
+Car(string b,float p){
+brand = b;
+price = p;
 
+}
+Car(string )
 };
