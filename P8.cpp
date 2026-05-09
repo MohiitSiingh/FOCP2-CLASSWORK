@@ -7,3 +7,8 @@
 // volumes.
 #include<iostream>
 using namespace std;
+class volume(){
+    float length,breadth,height,radius;
+    public:
+    int volume()
+}
