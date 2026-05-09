@@ -17,16 +17,14 @@ class Volume{
         return (length*breadth*height);
     }
      float volume(float radius,float height ){
-        return (radius*height);
+        return (3.14*radius*radius*height);
     }
-    void display(){
-        cout<<"Volume of the cube or cuboid or cylinder = "<<volume();
-    }
+   
 };
 int main(){
     Volume v1;
-    // volume(2);
-    // volume (2,3,4);
-   v1.volume(2.12f,4.0f);
-    v1.display();
+   cout<<"\n volume of cube is "<< v1.volume(2);
+   cout<<"\nvolume of cuboid is "<< v1.volume (2.1,3,4);
+   cout<<"\nvolume of cylinder is "<<v1.volume(2.12f,4.0f);
+  return 0;
 }
