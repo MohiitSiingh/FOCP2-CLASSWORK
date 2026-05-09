@@ -13,6 +13,9 @@ BankAccount(string acc,float bal){
     balance = bal;
 }
 void Display(){
-    cout<<"account number: "<<acc_num<<""
+    cout<<"account number: "<<acc_num<<"\nBalance: "<<balance;
 }
 };
+int main(){
+    
+}
