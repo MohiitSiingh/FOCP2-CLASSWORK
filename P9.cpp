@@ -37,7 +37,7 @@ float calculateBill(int units, float rate, float fixedCharge){
 int main {
 ElectricityBill EB;
 cout<<"\nTotal bill when only units are provided: "<<EB.calculateBill(100);
-cout<<"\nTotal bill when units and rate per unit are provided: "<<EB.calculateBill(100,8);
-cout<<"\nTotal bill when units with rate and fixed charge are provided: "<<EB.calculateBill(100,9,234.56);
+cout<<"\nTotal bill when units and rate per unit are provided: "<<EB.calculateBill(100,8.5);
+cout<<"\nTotal bill when units with rate and fixed charge are provided: "<<EB.calculateBill(100,9.5,234.56);
     return 0;
 }
