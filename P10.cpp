@@ -21,11 +21,11 @@ int quantity;
         price = price;
         quantity = q;
     }
- float   calculateTotal( int quantity,float price){
+ float   calculateTotal(float price, int quantity){
     return (total = price * quantity);
  }
 };
 int main(){
     Product P("Bottle",234.3f,3);
-    cout<<"Total bill of your added item is: "<<calculateTotal();
+    cout<<"Total bill of your added item is: "<<P.calculateTotal();
 }
