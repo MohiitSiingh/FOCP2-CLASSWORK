@@ -6,5 +6,9 @@
 #include<string>
 using namespace std;
 class shape{
-    
+    int side,length,breadth,height;
+    public:
+int area(){
+ 
+}
 }
