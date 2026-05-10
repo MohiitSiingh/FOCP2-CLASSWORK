@@ -19,12 +19,12 @@ class Course{
     public:
     Course(string n,string IN,int duration){
         name = n;
-        istructor_name=IN;
+        instructor_name=IN;
         this->duration = duration;
     }
     void display(){
         cout<<"\nCourse details are as follows: "<<"\n course name: "
-        <<name<<"\n Instructor name: "<<"\n duration: "<<duration<<"weeks";
+        <<name<<"\n Instructor name: "<<instructor_name<<"\n duration: "<<duration<<"weeks";
     }
     ~Course(){
         cout<<"\nCourse [ "<<name<<" ] is deleted";
@@ -33,6 +33,6 @@ class Course{
 int main(){
     Course C1("Math-1","Mohit Panwar",20);
     C1.display();
-    Course C2("Maths-2","JAAT",20);
+    Course C2("Maths-2","Professor",20);
     C2.display();
 }
