@@ -30,6 +30,7 @@ int quantity;
  }
 };
 int main(){
-    Product P("Bottle",234.3f,3);
+    Product P("Bottle",234.3f,3),P1("Car",500.0,5);
     cout<<"\nTotal bill of your added item is: "<<P.calculateTotal();
+    cout<<"\nTotal bill of your added item is: "<<P1.calculateTotal();
 }
