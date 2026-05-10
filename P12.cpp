@@ -1,8 +1,6 @@
 // Q12.A mobile store wants to maintain information about different mobile phones.
-//  Sometimes 
-// the store knows only the brand, sometimes it knows brand and price, and
-//  sometimes it knows 
-// brand, price, and storage capacity. 
+//  Sometimes the store knows only the brand, sometimes it knows brand and price, and
+//  sometimes it knows brand, price, and storage capacity. 
 // Problem Statement 
 // Design a class Mobile that stores the following information: 
 // • Brand 
@@ -16,3 +14,24 @@
 // 2. Write a display function to print the mobile details. 
 // 3. Create three objects using different constructors. 
 // 4. Display the details of each mobile. 
+#include<iostream>
+#include<string>
+using namespace std;
+class Mobile{
+    string Brand;
+    float price;
+    int storage;
+    Mobile(string brand){
+        this->brand = brand;
+    }
+    Mobile(string brand,float price){
+        this->brand = brand;
+        this->price = price;
+    }
+    Mobile(string brand,float price, int strg){
+        this->brand = brand;
+        this->price=price;
+        storage=strg;
+    }
+    void display
+}
