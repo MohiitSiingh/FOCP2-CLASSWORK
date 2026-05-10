@@ -11,3 +11,21 @@
 // 4. Create two objects for different products. 
 // 5. When the program ends, the destructor should display a message indicating that the 
 // product is removed from memory.
+class Product{
+string name;
+float price,total=0;
+int quantity;
+    public:
+    Product(string n , float price , int q){
+        name = n;
+        price = price;
+        quantity = q;
+    }
+ float   calculateTotal( int quantity,float price){
+    return (total = price * quantity);
+ }
+};
+int main(){
+    Product P("Bottle",234.3f,3);
+    cout<<"Total bill of your added item is: "<<calculateTotal()
+}
