@@ -20,17 +20,17 @@
 #include<string>
 using namespace std;
 class ElectricityBill{
-    float total=0;
+
     public:
 float calculateBill(int units){
-total = units * 5;
-return total;
+
+return  units * 5;
 }
-total =0;
+
 float calculateBill(int units, float rate){
-    total = units * rate;
+   return units * rate;
 }
-total=0;
+
 float calculateBill(int units, float rate, float fixedCharge){
     return ((units * rate )+ fixedCharge);
 }
