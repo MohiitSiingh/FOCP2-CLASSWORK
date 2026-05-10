@@ -30,5 +30,5 @@ int quantity;
 };
 int main(){
     Product P("Bottle",234.3f,3);
-    cout<<"Total bill of your added item is: "<<P.calculateTotal();
+    cout<<"Total bill of your added item is: "<<P.calculateTotal(234.3f,3);
 }
