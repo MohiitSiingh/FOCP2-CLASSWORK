@@ -14,7 +14,7 @@
 using namespace std;
 class Course{
     string name;
-    string istructor_name;
+    string instructor_name;
     int duration;
     public:
     Course(string n,string IN,int duration){
@@ -23,8 +23,16 @@ class Course{
         this->duration = duration;
     }
     void display(){
-        cout<<"Course details are as follows: "<<"\n course name: "
+        cout<<"\nCourse details are as follows: "<<"\n course name: "
         <<name<<"\n Instructor name: "<<"\n duration: "<<duration<<"weeks";
-        
     }
+    ~Course(){
+        cout<<"\nCourse [ "<<name<<" ] is deleted";
+    }
+};
+int main(){
+    Course C1("Math-1","Mohit Panwar",20);
+    C1.display();
+    Course C2("Maths-2","JAAT",20);
+    C2.display();
 }

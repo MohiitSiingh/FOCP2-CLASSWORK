@@ -29,7 +29,7 @@ int quantity;
     return (total = (price * quantity));
  }
  ~Product(){
-    cout<<"\nproduct is removed from memory";
+    cout<<"\nproduct [  "<<name<< " ] is removed from memory";
  }
 };
 int main(){
