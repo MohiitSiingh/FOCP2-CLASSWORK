@@ -33,5 +33,13 @@ class Mobile{
         this->price=price;
         storage=strg;
     }
-    void display
+    void display(){
+        cout<<"\nBrand = "<<brand<<"\nPrice= "<<price<<"\nstroage= "<<storage<<"GB"<<endl;
+    }
+};
+int main(){
+    Mobile M1("Samsung"),M2("Nokia",12345),M3("Apple",54321,1024);
+    M1.display();
+    M2.display();
+    M3.display();
 }
