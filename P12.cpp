@@ -24,10 +24,13 @@ class Mobile{
     public:
     Mobile(string Brand){
         this->Brand = Brand;
+        price = 0;
+        storage = 0;
     }
     Mobile(string Brand,float price){
         this->Brand = Brand;
         this->price = price;
+        storage = 0;
     }
     Mobile(string Brand,float price, int strg){
         this->Brand = Brand;
