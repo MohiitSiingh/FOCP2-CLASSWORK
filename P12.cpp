@@ -21,20 +21,21 @@ class Mobile{
     string Brand;
     float price;
     int storage;
-    Mobile(string brand){
-        this->brand = brand;
+    public:
+    Mobile(string Brand){
+        this->Brand = Brand;
     }
-    Mobile(string brand,float price){
-        this->brand = brand;
+    Mobile(string Brand,float price){
+        this->Brand = Brand;
         this->price = price;
     }
-    Mobile(string brand,float price, int strg){
-        this->brand = brand;
+    Mobile(string Brand,float price, int strg){
+        this->Brand = Brand;
         this->price=price;
         storage=strg;
     }
     void display(){
-        cout<<"\nBrand = "<<brand<<"\nPrice= "<<price<<"\nstroage= "<<storage<<"GB"<<endl;
+        cout<<"\nBrand = "<<Brand<<"\nPrice= "<<price<<"\nstroage= "<<storage<<"GB"<<endl;
     }
 };
 int main(){
