@@ -19,16 +19,17 @@ string name;
 float price,total=0;
 int quantity;
     public:
-    Product(string n , float price , int q){
+    Product(string n , float p , int q){
         name = n;
-        price = price;
+        price = p;
         quantity = q;
     }
- float calculateTotal(float price, int quantity){
-    return (total = price * quantity);
+ float calculateTotal(){
+    cout<<"\nName of the product is: "<<name<<"\nPrice: "<<price<<"\nQuantity: "<<quantity;
+    return (total = (price * quantity));
  }
 };
 int main(){
     Product P("Bottle",234.3f,3);
-    cout<<"Total bill of your added item is: "<<P.calculateTotal(234.3f,3);
+    cout<<"\nTotal bill of your added item is: "<<P.calculateTotal();
 }
