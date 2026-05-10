@@ -21,7 +21,7 @@
 using namespace std;
 class ElectricityBill{
     float total=0;
-    public;
+    public:
 float calculateBill(int units){
 total = units * 5;
 return total;
@@ -29,12 +29,13 @@ return total;
 total =0;
 float calculateBill(int units, float rate){
     total = units * rate;
-}total=0;
+}
+total=0;
 float calculateBill(int units, float rate, float fixedCharge){
     return ((units * rate )+ fixedCharge);
 }
 };
-int main {
+int main (){
 ElectricityBill EB;
 cout<<"\nTotal bill when only units are provided: "<<EB.calculateBill(100);
 cout<<"\nTotal bill when units and rate per unit are provided: "<<EB.calculateBill(100,8.5);
