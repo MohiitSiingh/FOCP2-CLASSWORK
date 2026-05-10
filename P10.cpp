@@ -28,9 +28,13 @@ int quantity;
     cout<<"\nName of the product is: "<<name<<"\nPrice: "<<price<<"\nQuantity: "<<quantity;
     return (total = (price * quantity));
  }
+ ~Product(){
+    cout<<"\nproduct is removed from memory";
+ }
 };
 int main(){
-    Product P("Bottle",234.3f,3),P1("Car",500.0,5);
+    Product P("Bottle",234.3f,3);
     cout<<"\nTotal bill of your added item is: "<<P.calculateTotal();
+     Product P1("Car",500.0,5);
     cout<<"\nTotal bill of your added item is: "<<P1.calculateTotal();
 }
