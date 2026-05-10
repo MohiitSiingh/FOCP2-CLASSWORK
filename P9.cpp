@@ -19,4 +19,21 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class 
+class ElectricityBill{
+    float total=0;
+    public;
+float calculateBill(int units){
+total = units * 5;
+return total;
+}
+float calculateBill(int units, float rate){
+    total = units * rate;
+}
+float calculateBill(int units, float rate, float fixedCharge){
+    return ((units * rate )+ fixedCharge)
+}
+};
+int main {
+
+    return 0;
+}
