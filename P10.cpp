@@ -19,9 +19,9 @@ string name;
 float price,total=0;
 int quantity;
     public:
-    Product(string n , float p , int q){
+    Product(string n , float price , int q){
         name = n;
-        price = p;
+        this->price = price;
         quantity = q;
     }
  float calculateTotal(){
