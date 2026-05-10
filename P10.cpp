@@ -11,6 +11,9 @@
 // 4. Create two objects for different products. 
 // 5. When the program ends, the destructor should display a message indicating that the 
 // product is removed from memory.
+#include<iostream>
+#include<string>
+using namespace std;
 class Product{
 string name;
 float price,total=0;
@@ -21,7 +24,7 @@ int quantity;
         price = price;
         quantity = q;
     }
- float   calculateTotal(float price, int quantity){
+ float calculateTotal(float price, int quantity){
     return (total = price * quantity);
  }
 };
