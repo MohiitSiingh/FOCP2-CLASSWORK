@@ -9,7 +9,7 @@ class shape{
    
     public:
 virtual float area(){
- 
+ cout<<"shape has no area\n";
 }
 };
 class rectangle: public shape{
@@ -27,7 +27,10 @@ class circle : public shape{
     }
 };
 int main(){
-    rectangle r(2.3f,3.3f);
-   cout<<"Area of rectangle is: " r.area()<<endl;
-   
+    shape s;
+    s.area();
+    rectangle r;
+   cout<<"Area of rectangle is: " <<r.area(2.3f,3.3f)<<endl;
+   circle c;
+   cout<<"area of circle:"<<c.area(5.0f);
 }
