@@ -9,13 +9,14 @@ class Employee{
     public:
    virtual float calculateSalary(){
         cout<<"Need to specify the post: \n";
+        return 0;
     }
 };
 class Manager:public Employee{
     public:
     float salary;
-    Manager(salary){
-        Salary=salary;
+    Manager(float S){
+        salary = S;
     }
    
     float calculateSalary() override{
@@ -25,8 +26,8 @@ class Manager:public Employee{
 class Worker:public Employee{
     public:
    
-    Worker(Salary){
-        Salary=salary;
+    Worker( float S){
+        salary = S;
     }
    
     float calculateSalary() override{
