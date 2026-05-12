@@ -15,22 +15,28 @@ virtual float area(){
 class rectangle: public shape{
     public:
     float length,breadth;
-    float area(float length ,float breadth){
+    float area()override{
         return (length*breadth);
     }
 };
 class circle : public shape{
     public:
     float radius;
-    float area(float radius){
+    float area() override{
         return (3.14*radius*radius);
     }
 };
 int main(){
-    shape s;
-    s.area();
-    rectangle r;
-   cout<<"Area of rectangle is: " <<r.area(2.3f,3.3f)<<endl;
-   circle c;
-   cout<<"area of circle:"<<c.area(5.0f);
+      Shape* s;   // base class pointer
+
+    Rectangle r(2.3f, 3.3f);
+    Circle c(5.0f);
+
+    // Pointing to Rectangle
+    s = &r;
+    cout << "Area of Rectangle: " << s->area() << endl;
+
+    // Pointing to Circle
+    s = &c;
+    cout << "Area of Circle: " << s->area() << endl;
 }
