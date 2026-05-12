@@ -6,13 +6,13 @@
 #include<string>
 using namespace std;
 class Employee{
-    protected:
+    public:
    virtual float calculateSalary(){
         cout<<"Need to specify the post: \n";
     }
 };
 class Manager:public Employee{
-    protected:
+    public:
     float salary;
     Manager(salary){
         Salary=salary;
@@ -23,7 +23,7 @@ class Manager:public Employee{
     }
 };
 class Worker:public Employee{
-    protected:
+    public:
    
     Worker(Salary){
         Salary=salary;
