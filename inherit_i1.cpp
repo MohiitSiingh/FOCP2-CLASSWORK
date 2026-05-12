@@ -39,7 +39,7 @@ int main(){
     Worker W(12000.32f);
     
     E = &M;
-    cout<<"\n Manager salary is : "<<M.calculateSalary();
+    cout<<"\n Manager salary is : "<<E->calculateSalary();
     E=&W;
-    cout<<"\n Worker salary is : "<<W.calculateSalary();
+    cout<<"\n Worker salary is : "<<E->calculateSalary();
 }
