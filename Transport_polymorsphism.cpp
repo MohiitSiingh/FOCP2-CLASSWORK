@@ -37,8 +37,8 @@ class Bike:public Vehicle{
 int main(){
     Vehicle *V;
     // V.fuelEfficiency();
-    Car C(50.5f,560.7f,);
-    Bike B(280.9f,8.82);
+    Car C(50.5f,560.7f);
+    Bike B(8.82f,280.9f);
     V = &C;
     cout<<"\nfuel efficiency of the car is: "<<V->fuelEfficiency();
     V = &B;
