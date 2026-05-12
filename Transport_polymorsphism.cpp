@@ -8,31 +8,33 @@ using namespace std;
 class Vehicle{
     public:
     virtual float fuelEfficiency(){
-cout<<"choose a vehicle: \n";
+cout<<"\ngenric vehicle: has no fuel efficiency";
 return 0;
     }
 };
 class Car:public Vehicle{
     public:
     float fuel_used,km_run;
-    Vehicle::fuelEfficiency();
+   
     Car(float fu,float km){
         fuel_used=fu;
         km_run=km;
     }
         float fuelEfficiency() override{
+            Vehicle::fuelEfficiency();
             return km_run/fuel_used;
         }
 };
 class Bike:public Vehicle{
     public:
     float fuel_used,km_run;
-    Vehicle::fuelEfficiency();
+    
     Bike(float fu,float km){
         fuel_used=fu;
         km_run=km;
     }
         float fuelEfficiency() override{
+            // Vehicle::fuelEfficiency();
             return km_run/fuel_used;
         }
 };
