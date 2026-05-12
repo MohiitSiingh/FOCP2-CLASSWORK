@@ -15,6 +15,7 @@ return 0;
 class Car:public Vehicle{
     public:
     float fuel_used,km_run;
+    Vehicle::fuelEfficiency();
     Car(float fu,float km){
         fuel_used=fu;
         km_run=km;
@@ -26,6 +27,7 @@ class Car:public Vehicle{
 class Bike:public Vehicle{
     public:
     float fuel_used,km_run;
+    Vehicle::fuelEfficiency();
     Bike(float fu,float km){
         fuel_used=fu;
         km_run=km;
