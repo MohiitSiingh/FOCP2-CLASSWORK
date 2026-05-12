@@ -6,9 +6,28 @@
 #include<string>
 using namespace std;
 class shape{
-    int side,length,breadth,height;
+   
     public:
-int area(){
+virtual float area(){
  
 }
+};
+class rectangle: public shape{
+    public:
+    float length,breadth;
+    float area(float length ,float breadth){
+        return (length*breadth);
+    }
+};
+class circle : public shape{
+    public:
+    float radius;
+    float area(float radius){
+        return (3.14*radius*radius);
+    }
+};
+int main(){
+    rectangle r(2.3f,3.3f);
+   cout<<"Area of rectangle is: " r.area()<<endl;
+   
 }
