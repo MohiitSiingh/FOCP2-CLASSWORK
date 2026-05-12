@@ -15,7 +15,7 @@ class Manager:Public Employee{
     protected:
     float salary;
     Manager(salary){
-        this->salary=salary;
+        Salary=salary;
     }
    
     float claculateSalary() override{
@@ -24,9 +24,9 @@ class Manager:Public Employee{
 };
 class Worker:Public Employee{
     protected:
-    float salary;
+   
     Worker(Salary){
-        this->salary=salary;
+        Salary=salary;
     }
    
     float claculateSalary() override{
