@@ -15,6 +15,10 @@ virtual float area(){
 class rectangle: public shape{
     public:
     float length,breadth;
+    rectangle(float l, float b) {
+        length = l;
+        breadth = b;
+    }
     float area()override{
         return (length*breadth);
     }
@@ -22,15 +26,18 @@ class rectangle: public shape{
 class circle : public shape{
     public:
     float radius;
+      circle(float r) {
+        radius = r;
+    }
     float area() override{
         return (3.14*radius*radius);
     }
 };
 int main(){
-      Shape* s;   // base class pointer
+      shape* s;   // base class pointer
 
-    Rectangle r(2.3f, 3.3f);
-    Circle c(5.0f);
+    rectangle r(2.3f, 3.3f);
+    circle c(5.0f);
 
     // Pointing to Rectangle
     s = &r;
