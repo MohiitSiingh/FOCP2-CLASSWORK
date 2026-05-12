@@ -25,7 +25,7 @@ class Manager:public Employee{
 };
 class Worker:public Employee{
     public:
-   
+   float salary;
     Worker( float S){
         salary = S;
     }
