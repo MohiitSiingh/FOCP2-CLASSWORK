@@ -11,10 +11,10 @@ class Employee{
         Cout<<"Need to specify the post: \n";
     }
 };
-class Manager:protected Employee{
+class Manager:Public Employee{
     protected:
     float salary;
-    Manager(Salary){
+    Manager(salary){
         this->salary=salary;
     }
    
@@ -22,7 +22,7 @@ class Manager:protected Employee{
         return salary;
     }
 };
-class Worker:protected Employee{
+class Worker:Public Employee{
     protected:
     float salary;
     Worker(Salary){
@@ -34,6 +34,12 @@ class Worker:protected Employee{
     }
 };
 int main(){
-    Employee *E;
+    Employee* E;
+    Manager M(120000.34f);
+    Worker W(12000.32f);
     
+    E = &M;
+    cout<<"\n Manager salary is : "<<claculateSalary();
+    E=&W;
+    cout<<"\n Worker salary is : "<<claculateSalary();
 }
