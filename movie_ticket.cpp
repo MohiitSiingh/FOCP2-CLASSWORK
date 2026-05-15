@@ -6,5 +6,6 @@ class movie_ticket{
 // o Allow a customer with a unique ID X to book a ticket for a movie with the movie ID Y.  
 // o If the customer has already booked a ticket for the same movie or the movie is sold out, 
 // return false.  
-// o Otherwise, mark the ticket as booked and return true. 
+// o Otherwise, mark the ticket as booked and return true.
+ 
 }
