@@ -7,5 +7,6 @@ class movie_ticket{
 // o If the customer has already booked a ticket for the same movie or the movie is sold out, 
 // return false.  
 // o Otherwise, mark the ticket as booked and return true.
- 
+string unique_id , movie_id;
+
 }
