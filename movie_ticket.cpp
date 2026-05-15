@@ -9,6 +9,7 @@ class movie_ticket{
 // return false.  
 // o Otherwise, mark the ticket as booked and return true.
 string unique_id , movie_id;
+
 if ( slots == 0 || )
 
 }
