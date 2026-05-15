@@ -10,6 +10,11 @@ class movie_ticket{
 // o Otherwise, mark the ticket as booked and return true.
 string unique_id , movie_id;
 
-if ( slots == 0 || )
+public: 
+cin>> 
+bool book_xy{
+    for(int i = 0 ; i < slots ; i++)
+if ( slots == 0 || unique-id[i] == movie_id[i]  )
 
+}
 }
